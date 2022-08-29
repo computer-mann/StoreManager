@@ -1,0 +1,8 @@
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.csproj.AssemblyReference.cache
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.AssemblyInfoInputs.cache
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.AssemblyInfo.cs
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.csproj.CoreCompileInputs.cache
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.RazorAssemblyInfo.cache
+C:\Users\hpsn1\OneDrive\Documents\Projects\dotnet\StoreManager\StoreManager\obj\Debug\net6.0\StoreManager.RazorAssemblyInfo.cs
