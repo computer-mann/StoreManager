@@ -56,9 +56,13 @@
               "target": "Package",
               "version": "[6.0.8, )"
             },
-            "Newtonsoft.Json": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[6.0.2, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
             }
           },
           "imports": [

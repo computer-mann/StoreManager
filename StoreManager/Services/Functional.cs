@@ -264,7 +264,7 @@ namespace StoreManager.Services
         }
 
 
-        public async Task<string> UploadFile(List<IFormFile> files, IHostingEnvironment env, string uploadFolder)
+        public async Task<string> UploadFile(List<IFormFile> files, IWebHostEnvironment env, string uploadFolder)
         {
             var result = "";
 

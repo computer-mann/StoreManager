@@ -9,9 +9,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using StoreManager;
 using StoreManager.Data;
+using StoreManager.Models;
+using StoreManager.Services;
 
-namespace IAInventory
+namespace StoreManager
 {
     public class Program
     {

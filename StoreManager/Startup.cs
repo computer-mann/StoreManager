@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using StoreManager.Data;
 using StoreManager.Models;
 using StoreManager.Services;
-using Newtonsoft.Json.Serialization;
 
 namespace StoreManager
 {
@@ -28,7 +19,7 @@ namespace StoreManager
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 29))));
 
             services.AddDatabaseDeveloperPageExceptionFilter();
             // Get Identity Default Options
@@ -91,16 +82,8 @@ namespace StoreManager
             services.AddTransient<IRoles, Roles>();
 
             services.AddTransient<IFunctional, Functional>();
-            
-            services.AddMvc()
-            .AddJsonOptions(options =>
-            {
-                //options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
-                options.JsonSerializerOptions.DefaultIgnoreCondition = Newtonsoft.Json.;
-                //pascal case json
-                options.SerializerSettings.ContractResolver = new DefaultContractResolver();
-                
-            });
+
+            services.AddMvc();
 
             services.AddRouting(urls => urls.LowercaseUrls = true);
 
