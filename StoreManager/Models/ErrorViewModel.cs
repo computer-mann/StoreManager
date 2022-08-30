@@ -1,6 +1,6 @@
 using System;
 
-namespace IAInventory.Models
+namespace StoreManager.Models
 {
     public class ErrorViewModel
     {
