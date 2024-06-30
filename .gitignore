@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/StoreManager/obj/Debug/net6.0/StoreManager.RazorAssemblyInfo.cache
+/StoreManager/obj/
+/.vs/StoreManager/DesignTimeBuild/.dtbcache.v2
+/.vs/ProjectEvaluation/storemanager.projects.v2
